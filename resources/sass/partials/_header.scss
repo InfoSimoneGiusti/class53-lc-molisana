@@ -1,0 +1,22 @@
+@import "./variables.scss";
+
+header {
+    text-align: center;
+  }
+  ul {
+    margin: 30px 0px;
+    li {
+      display: inline-block;
+      a {
+        text-decoration: none;
+        color: #000;
+        padding: 20px;
+
+        &.active,
+        &:hover {
+          background-color: $secondaryColor;
+        }
+      }
+    }
+
+  }

@@ -1,0 +1,17 @@
+@import "./variables.scss";
+
+.product {
+    width:25%;
+    border: solid 2px $secondaryColor;
+    min-height: 250px;
+    background-color: white;
+    padding: 15px;
+    h3 {
+        text-align: center;
+        color: $primaryColor;
+        font-size: 18px;
+    }
+    img {
+        width: 100%;
+    }
+}
